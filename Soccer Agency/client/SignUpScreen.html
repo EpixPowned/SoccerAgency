@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up here!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='/client/js/signupscreen.js' async></script>
+    <link rel="stylesheet" href="client/css/SignUpScreen.css">
+    <style>
+        div {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        body {
+            <!-- background-image: url('https://cloudfront-us-east-2.images.arcpublishing.com/reuters/GLQHM5ILD5J3DPY547NWVDK74E.jpg'); -->
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        label {
+            display: inline-block;
+            color: royalblue;
+            font-family: 'Copperplate Gothic';
+        }
+
+
+        p {
+            text-align: center;
+            font-family: 'Copperplate Gothic';
+        }
+    </style>
+</head>
+
+<body>
+    <div class="seven">
+        <h1>Sign Up Below</h1>
+    </div>
+    <br />
+    <div>
+        <input type="text" autocomplete="off" name="username" class="input" id="username" placeholder="Username">
+    </div>
+    <div>
+        <input type="text" autocomplete="off" name="emailaddress" class="input" id="emailaddress" placeholder="Email Address">
+    </div>
+     <div>
+         <input type="text" autocomplete="off" name="password" class="input" id="password" placeholder="Password">
+     </div>
+     <div>
+         <button id="signup">Create Account!</button>
+         <br />
+         <br />
+         <br />
+         <button onclick="window.location.href='http://localhost:3000/home'">Back To Home</button>
+
+     </div>
+        
+</body>
+
+
+</html>

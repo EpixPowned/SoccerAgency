@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Shortlist</title>
+    <link rel="stylesheet" href="client/css/shortlist.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='/client/js/shortlist.js' async></script>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h1 {
+            color: royalblue;
+        }
+
+
+        table {
+            text-align: center;
+        }
+
+        table {
+            color: darkred;
+            font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+        }
+    </style>
+</head>
+<body>
+    <div class="seven">
+        <h1>Your Shortlist</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Player Name</th>
+                <th>Age</th>
+                <th>Club</th>
+                <th>Position</th>
+                <th>Appearances</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Remove from Shortlist?</th>
+            </tr>
+        </thead>
+        <tbody id="playerID"></tbody>
+    </table>
+        <p><button onclick="window.location.href='http://localhost:3000/home'">Back to Home</button></p>
+</body>
+</html>

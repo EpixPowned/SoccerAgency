@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Full List of Agents</title>
+    <link rel="stylesheet" href="client/css/PlayersListHTML.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='/client/js/agents.js' async></script>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+
+        table {
+            color: darkred;
+            font-family: 'Copperplate Gothic';
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Copperplate Gothic';
+        }
+    </style>
+</head>
+<body>
+    <div class="seven">
+    <h1>Full List of Agents</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Agent Name</th>
+                <th>Players Represented</th>
+                <th>Agent Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody id="agentID"></tbody>
+    </table>
+    <p><button onclick="window.location.href='http://localhost:3000/home'">Back to Home</button></p>
+</body>
+
+
+</html>

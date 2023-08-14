@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Soccer Agency</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='/client/js/soccermain.js' async></script>
+    <link rel="stylesheet" href="client/css/SoccerHTML.css">
+    <style>
+        body {
+            background-image: url('https://cloudfront-us-east-2.images.arcpublishing.com/reuters/GLQHM5ILD5J3DPY547NWVDK74E.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+            color: darkred;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+        }
+
+        h2 {
+            text-align: right;
+            font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+            color: darkred;
+        }
+
+        div {
+            margin-bottom: 5px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="seven">
+        <h1>Welcome to the Soccer Agency</h1>
+    </div>
+    <br />
+    <h2 id="message">Please Login in below!</h2>
+    }
+    <br />
+    <div class="topbuttons">
+        <button onclick="window.location.href='http://localhost:3000/PlayersListHTML'">Player List</button>
+        <button onclick="window.location.href='http://localhost:3000/AgentsListHTML'">Agent List</button>
+        <button id="mainshortlist" onclick="window.location.href='http://localhost:3000/shortlist'" hidden>Shortlist</button>
+    </div>
+    <br />
+    <h2 id="logintext"><i>Login here</i></h2>
+    <div>
+        <input type="text" autocomplete="off" name="username" class="input" id="username" placeholder="Username">
+        <br />
+        <br />
+        <br />
+        <input type="text" autocomplete="off" name="password" class="input" id="password" placeholder="Password">
+        <br />
+        <br />
+        <br />
+        <button id="login">Log in</button>
+        <br />
+        <br />
+        <br />
+        <button id="mainsignup" onclick="window.location.href='http://localhost:3000/SignUpScreen'">Sign Up here!</button>
+    </div>
+
+    
+
+</body>
+</html>
